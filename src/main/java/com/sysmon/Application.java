@@ -17,7 +17,6 @@ public class Application {
 		Logger root = (Logger) LoggerFactory.getLogger(Logger.ROOT_LOGGER_NAME);
 		root.setLevel(Level.INFO);
 
-
-		SpringApplication.run(ApplicationBootstrap.class, args);
+        SpringApplication.run(ApplicationBootstrap.class, args);
 	}
 }
