@@ -16,6 +16,7 @@ public class Application {
 	public static void main(String[] args) {
 		Logger root = (Logger) LoggerFactory.getLogger(Logger.ROOT_LOGGER_NAME);
 		root.setLevel(Level.INFO);
+
 		SpringApplication.run(ApplicationBootstrap.class, args);
 	}
 }
