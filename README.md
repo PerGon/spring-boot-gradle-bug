@@ -1,6 +1,8 @@
 spring-boot-gradle-bug
 ======================
 
+[Update] Bug confirmed, resolved and closed. See thread at https://github.com/spring-projects/spring-boot/issues/203
+
 Small project to reproduce a bug of spring-boot-gradle-plugin
 
 - checkout
